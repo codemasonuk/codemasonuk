@@ -1,0 +1,33 @@
+/* general */
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background: #bdff01;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #333;
+}
+
+figure {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+figure svg {
+	height: auto;
+	width: 35%;
+}
