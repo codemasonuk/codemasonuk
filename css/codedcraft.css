@@ -1,5 +1,12 @@
 /* general */
 
+@font-face {
+	font-family: "OverusedGrotesk"; /* Specify font name */
+	src: url("css/fonts/OverusedGrotesk-Roman.woff2") format("woff2"),
+		/* WOFF2 for modern browsers */ url("css/fonts/OverusedGrotesk-Roman.woff")
+			format("woff"); /* WOFF fallback for older browsers */
+}
+
 html,
 body {
 	height: 100%;
@@ -7,22 +14,26 @@ body {
 }
 
 body {
+	background: #bdff01;
+	color: #333;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	background: #bdff01;
-	font-family: Arial, sans-serif;
+	font-family: "OverusedGrotesk", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	color: #333;
+}
+
+body {
+	body {
+		/* Fallback to sans-serif if font fails to load */
+	}
 }
 
 figure {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
 	margin: 0;
 	width: 100%;
 }
