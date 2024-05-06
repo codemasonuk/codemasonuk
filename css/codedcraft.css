@@ -2,8 +2,8 @@
 
 @font-face {
 	font-family: "OverusedGrotesk"; /* Specify font name */
-	src: url("css/fonts/OverusedGrotesk-Roman.woff2") format("woff2"),
-		/* WOFF2 for modern browsers */ url("css/fonts/OverusedGrotesk-Roman.woff")
+	src: url("fonts/OverusedGrotesk-Roman.woff2") format("woff2"),
+		/* WOFF2 for modern browsers */ url("fonts/OverusedGrotesk-Roman.woff")
 			format("woff"); /* WOFF fallback for older browsers */
 }
 
@@ -22,23 +22,42 @@ body {
 	font-family: "OverusedGrotesk", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
+	flex-direction: column;
 }
 
-body {
-	body {
-		/* Fallback to sans-serif if font fails to load */
-	}
+a {
+	color: unset;
 }
 
 figure {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0;
+	margin-bottom: 1em;
 	width: 100%;
 }
 
-figure svg {
+figure img {
 	height: auto;
-	width: 35%;
+	width: 45%;
+}
+
+@media (max-width: 768px) {
+	figure img {
+		width: 350px;
+	}
+}
+
+@media (max-width: 480px) {
+	figure img {
+		width: 250px;
+	}
+}
+
+footer {
+	font-size: 24px;
+}
+
+footer a {
+	text-decoration: none;
 }
