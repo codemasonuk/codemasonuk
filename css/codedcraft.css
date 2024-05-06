@@ -40,6 +40,7 @@ figure {
 
 figure img {
 	height: auto;
+	max-width: 550px;
 	width: 30%;
 }
 
