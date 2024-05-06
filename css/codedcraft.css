@@ -21,8 +21,9 @@ body {
 	justify-content: center;
 	font-family: "OverusedGrotesk", Arial, sans-serif;
 	font-size: 18px;
-	line-height: 1.5;
+	line-height: 1.5em;
 	flex-direction: column;
+	word-spacing: 0.125em;
 }
 
 a {
@@ -33,7 +34,7 @@ figure {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 	width: 100%;
 }
 
@@ -60,10 +61,15 @@ figure img {
 	}
 }
 
-footer {
+.contact {
+	display: flex;
+	flex-direction: column;
 	font-size: 24px;
+	justify-content: center;
+	width: 100%;
 }
 
-footer a {
+.contact a {
 	text-decoration: none;
+	text-align: center;
 }
