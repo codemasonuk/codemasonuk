@@ -35,10 +35,15 @@ body {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 	body {
 		background-image: url("../images/device-bkg-def.svg");
 		background-size: 1200px;
+	}
+}
+
+@media (min-width: 992px) {
+	body {
 		font-size: 18px;
 		padding-left: 20px;
 		padding-right: 20px;
