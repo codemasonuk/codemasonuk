@@ -237,17 +237,22 @@ h3 {
 	}
 }
 
-.page-white .btn {
-	background: #bdff01;
-	color: #000;
-}
-
 .btn-primary {
 	background: #000;
 }
 
 .btn-primary:hover {
 	background-color: #555;
+}
+
+.page-white .btn-primary {
+	background: #bdff01;
+	color: #000;
+}
+
+.page-white .btn-primary:hover {
+	background: #a7e100;
+	color: #000;
 }
 
 .btn-secondary {
