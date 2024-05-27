@@ -205,6 +205,10 @@ h3 {
 	line-height: 1.35;
 }
 
+.page-sub #main article p {
+	margin-bottom: 0.75em;
+}
+
 .page-sub #main article .big-bullet::before {
 	margin-right: 0;
 }
