@@ -218,7 +218,7 @@ h3 {
 }
 
 .btn {
-	background: #000;
+	background: #ccc;
 	border: none;
 	border-radius: 1em;
 	color: #fff;
@@ -242,8 +242,21 @@ h3 {
 	color: #000;
 }
 
+.btn-primary {
+	background: #000;
+}
+
+.btn-primary:hover {
+	background-color: #555;
+}
+
 .btn-secondary {
 	background: #fff;
+	color: #000;
+}
+
+.btn-secondary:hover {
+	background-color: #eaeaea;
 	color: #000;
 }
 
