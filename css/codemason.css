@@ -454,7 +454,7 @@ aside > .border-top {
 }
 
 .btn {
-	background: #ccc;
+	background: none;
 	border: none;
 	border-radius: 1em;
 	color: #fff;
@@ -481,10 +481,6 @@ aside > .border-top {
 	color: #000;
 }
 
-.btn-primary:hover {
-	background-color: #555;
-}
-
 .btn-primary::after {
 	content: "";
 	display: inline-block;
@@ -497,6 +493,15 @@ aside > .border-top {
 	right: 15px;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.btn-primary:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.btn-primary:hover::after {
+	background-image: url("../images/icon-arrow-device-01-def.svg");
 }
 
 .btn.btn-sm {
@@ -521,6 +526,12 @@ aside > .border-top {
 	background: #fff;
 	color: #000;
 }
+
+.btn-primary.btn-rev:hover {
+	background: #bdff01;
+	border-color: #fff;
+}
+
 .btn-primary.btn-rev::after {
 	background-image: url("../images/icon-arrow-device-01-rev.svg");
 }
@@ -533,6 +544,10 @@ aside > .border-top {
 	font-weight: 500;
 	font-size: 18px;
 	padding: 10px 20px;
+}
+
+.btn-secondary:hover {
+	background: none;
 }
 
 .btn-secondary.btn-sm {
@@ -550,7 +565,8 @@ aside > .border-top {
 }
 
 .btn-secondary:hover {
-	color: red;
+	border-color: #bdff01;
+	color: #bdff01;
 }
 
 .button-group {
